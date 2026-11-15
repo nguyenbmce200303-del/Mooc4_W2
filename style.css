@@ -1,6 +1,6 @@
 body {
     background-color: #f8f9fa;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 25px;
 }
@@ -24,13 +24,13 @@ body {
 .tech-card img {
     width: 100%;
     height: auto;
-    border-radius: 4px;
     display: block;
+    margin-bottom: 15px;
 }
 
 @media screen and (min-width: 772px) {
     .tech-card {
-        width: 45%;
+        width: 45vw;
         display: inline-block;
         vertical-align: top;
         margin-right: 3%;
@@ -44,7 +44,7 @@ body {
 
 @media screen and (min-width: 998px) {
     .tech-card {
-        width: 30%;
+        width: 30vw;
         margin-right: 2.5%;
     }
 }
