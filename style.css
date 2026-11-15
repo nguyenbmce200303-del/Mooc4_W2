@@ -1,47 +1,36 @@
 body {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 15px;
-    background-color: #f4f4f4;
+    padding: 20px;
 }
 
-header {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-div {
+div div {
     width: 100%;
-    background-color: #ffffff;
-    padding: 15px;
-    margin-bottom: 15px;
-    border: 1px solid #cccccc;
+    margin-bottom: 20px;
     box-sizing: border-box;
-    vertical-align: top;
 }
 
 img {
     width: 100%;
     height: auto;
-    display: block;
 }
 
 @media screen and (min-width: 772px) {
-    div {
+    div div {
         width: 45%;
-        display: inline-block;
-        margin: 1%;
+        float: left;
+        margin-right: 4%;
     }
 
     img {
         max-height: 30vh;
         width: auto;
-        margin: 0 auto;
     }
 }
 
 @media screen and (min-width: 998px) {
-    div {
+    div div {
         width: 30%;
+        margin-right: 3%;
     }
 }
