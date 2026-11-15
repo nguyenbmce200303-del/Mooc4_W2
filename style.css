@@ -4,7 +4,13 @@ body {
     font-family: Arial, sans-serif;
 }
 
-div {
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+div div {
     width: 100%;
     margin-bottom: 20px;
     box-sizing: border-box;
@@ -16,10 +22,8 @@ img {
 }
 
 @media screen and (min-width: 772px) {
-    div {
+    div div {
         width: 45%;
-        float: left;
-        margin-right: 5%;
     }
 
     img {
@@ -29,8 +33,7 @@ img {
 }
 
 @media screen and (min-width: 998px) {
-    div {
+    div div {
         width: 30%;
-        margin-right: 3%;
     }
 }
