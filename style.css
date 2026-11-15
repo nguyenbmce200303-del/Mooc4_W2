@@ -1,38 +1,50 @@
 body {
-    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 25px;
 }
 
-div {
+.main-head {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.tech-card {
+    background: #ffffff;
     width: 100%;
-    margin-bottom: 20px;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     box-sizing: border-box;
 }
 
-img {
+.tech-card img {
     width: 100%;
     height: auto;
+    border-radius: 4px;
     display: block;
 }
 
 @media screen and (min-width: 772px) {
-    div {
+    .tech-card {
         width: 45%;
         display: inline-block;
         vertical-align: top;
         margin-right: 3%;
     }
 
-    img {
+    .tech-card img {
         max-height: 30vh;
         width: auto;
     }
 }
 
 @media screen and (min-width: 998px) {
-    div {
+    .tech-card {
         width: 30%;
-        margin-right: 2%;
+        margin-right: 2.5%;
     }
 }
